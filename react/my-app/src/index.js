@@ -4,10 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Newcomponent from './components/Newcomponent';
+import ComponentTwo from './components/ComponentTwo';
+import LoginStatus from './components/LoginStatus';
 ReactDOM.render(
   <React.StrictMode>
    { /*<App />*/}
-   <Newcomponent/>
+   {/*<Newcomponent/>*/}
+   {/*<ComponentTwo/>*/}
+   <LoginStatus/>
   </React.StrictMode>,
   document.getElementById('root')
 );
