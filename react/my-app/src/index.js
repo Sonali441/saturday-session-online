@@ -3,15 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Newcomponent from './components/Newcomponent';
-import ComponentTwo from './components/ComponentTwo';
-import LoginStatus from './components/LoginStatus';
+
 ReactDOM.render(
   <React.StrictMode>
-   { /*<App />*/}
-   {/*<Newcomponent/>*/}
-   {/*<ComponentTwo/>*/}
-   <LoginStatus/>
+    <App />
+    
+   
   </React.StrictMode>,
   document.getElementById('root')
 );

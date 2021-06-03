@@ -1,27 +1,22 @@
 
 //import logo from './logo.svg';
-//import './App.css';
+import './App.css';
+import AnotherComponent from './Components-Class/AnotheComponent';
+import MyComponent from './Components-Class/MyComponent'
+import ProductTable from './Components-Class/ProductTable';
+import ProductFunction from './Components-Function/ProductFunction';
 
-//function App() {
-  //return (
-    //<div className="App">
-      //<header className="App-header">
-        //<img src={logo} className="App-logo" alt="logo" />
-        //<p>
-         // Edit <code>src/App.js</code> and save to reload.
-       // </p>
-        //<a
-          //className="App-link"
-          //href="https://reactjs.org"
-          //target="_blank"
-          //rel="noopener noreferrer"
-        //>
-          //Learn React
-        //</a>
-      //</header>
-    //</div>
-  //);
-//}
+function App() {
+  return (
+    <div>
+      <h1>Hello React</h1>
+      <MyComponent/>
+      <AnotherComponent/>
+      <ProductTable/>
+      <ProductFunction/>
+    </div>
+  );
+}
 
 
-//export default App;
+export default App;
