@@ -2,6 +2,7 @@
 //import logo from './logo.svg';
 import './App.css';
 import AnotherComponent from './Components-Class/AnotheComponent';
+import Counter from './Components-Class/Counter';
 import Course from './Components-Class/Course';
 import MyComponent from './Components-Class/MyComponent'
 import ProductTable from './Components-Class/ProductTable';
@@ -34,9 +35,9 @@ function App() {
   ];
   return (
     <div>
-      <h1>Hello React</h1>
+      
       <MyComponent products={products}/>
-     { /*<AnotherComponent/>*/}
+      {/*<AnotherComponent/>
       <ProductTable/>
       <ProductFunction/>
 
@@ -50,7 +51,8 @@ function App() {
         duration="6 months"
         salary={salary}
         
-      />
+      />*/}
+      <Counter/>
     </div>
   );
 }
